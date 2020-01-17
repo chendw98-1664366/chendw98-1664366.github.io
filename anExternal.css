@@ -1,0 +1,49 @@
+body {
+    background-color: powderblue;
+}
+h1 {
+    color: blue;
+}
+#first {
+    font-family: "Times New Roman", Times, serif;
+    border-style: dotted;
+}
+
+#second {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#iii{
+      width: 50px;
+      height: 50px;
+  }
+
+#centorimage {
+    width: 100px;
+    height: 100px;
+}
+
+  /* Container holding the image and the text */
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+    width: 50%;
+    height: 50%;
+}
+  
+/* Centered text */
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#master {
+    border: tomato;
+    padding: 5%;
+    border-style: solid;
+    border-radius: 25px;
+}
+
